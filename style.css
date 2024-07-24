@@ -1,0 +1,484 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* <!-- Navbar section started --> */
+.footer-list{
+    display: flex;
+}
+.head{
+    background-color: black;
+    padding: 0px;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: white;
+    padding-right: 16px;
+}
+.social-padding{
+    padding: 0px 12px;
+}
+.nav-corner-pdd{
+    margin-left: 2%;
+    max-width: 1313px;
+    font-size: 13px;
+}
+/* <!-- Navbar section closed --> */
+/* <!-- header section started --> */
+.header-main{
+    display: flex;
+    padding: 0px;
+    padding-right: 5px;
+}
+.main-logo{
+    padding: 14px;
+    padding-left: 2px;
+}
+.header-ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 20px;
+}
+.header-item-pdd{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+.header-serah-icon{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 45px;
+}
+.header-icon{
+    display: flex;
+    color: black;
+}
+.header-icon-pdd{
+    padding-right: 15px;
+}
+/* <!-- header section closed --> */
+/* <!-- Banner section started --> */
+.main-banner{
+    display: flex;
+}
+.banner-1-pdd{
+    padding: 0px;
+    overflow: hidden;
+    max-width: 100%;
+    box-shadow: none;
+}
+.banner-1-2-main{
+    width: 29.6%;
+    overflow: hidden;
+}
+/* <!-- Banner section started --> */
+/* <!-- trending section started --> */
+.trending-pg{
+    padding: 60px 0px;
+}
+.trending-container{
+    padding: 0px 35px;
+}
+.sec-1-heading{
+    padding: 0px;
+    margin-bottom: 26px;
+}
+.trending-heading{
+    font-size: 24px;
+    letter-spacing: 0.04em;
+    margin: 0px;
+    color: #004b96;
+}
+.card-image{
+    margin-bottom: 16px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.10);
+}
+.card-img-inner{
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    position: relative;
+    max-width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.card-h-date{
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+}
+.card-h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+    padding-bottom: 11px;
+}
+.card-h-color{
+    color: black;
+}
+.sec-1-cards{
+    display: grid;
+    grid-column-gap: var(--grid-gutter);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    --grid-gutter: 36px;
+    padding: 0px;
+}
+.card-img-size{
+    width: 340px;
+    height: 190px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.10);
+}
+.card{
+    border: none;
+}
+.sec-1-banner{
+    padding: 0px;
+}
+.sec-1-banner{
+    width: 100%;
+    padding-top: 30px;
+}
+/* <!-- trending section closed --> */
+/* <!-- Gadjets section started --> */
+.gadjets-container{
+    padding: 0px 20px;
+}
+.main-new-gadjets-L{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: normal;
+    margin-bottom: 20px;
+    position: relative;
+}
+.new-gadjets-h{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+.main-new-gadjets-h::after{
+    content: "";
+    flex: 1 1 auto;
+    height: 2px;
+    box-sizing: content-box;
+    border: 1px solid #e2e2e2;
+    margin-left: 20px;
+}
+.main-new-gadjets-h{
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+.new-gadjets-arrow{
+    order: 5;
+    margin-left: 21px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 1.0769em;
+    height: 26px;
+    border: 1px solid #e8e8e8;
+    border-radius: 20px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+.new-gadjets-arrow-icon{
+    margin-left: 6px;
+    font-size: 12px;
+}
+.main-gadjets-card{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+.gadjets-item-large{
+    margin-bottom: 50px;
+    width: 100%;
+    padding: 0px 33px;
+}
+.gadjets-inner-item{
+    display: flex;
+    margin: 0 -16px;
+    --list-p-media-width: 50%;
+    --list-p-media-max-width: 85%;
+    align-items: center;
+}
+.gadjets-img-box{
+    padding: 0;
+    width: 50%;
+    flex: 0 0 50%;
+    box-shadow: 0 2px 6px -1px rgba(7, 10, 25, .2), 0 6px 12px -6px rgba(7, 10, 25, .2);
+    position: relative;
+    align-self: flex-start;
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+    max-width: var(--list-p-media-max-width, 60%);
+    width: var(--list-p-media-width, 38%);
+    margin-right: 25px;
+    flex-shrink: 0;
+}
+.gadjets-content-box{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+}
+.gadjets-L-img{
+    display: block;
+    position: relative;
+    max-width: 100%;
+    transition: all .25s ease-in-out;
+    padding-bottom: 66.6666666667%;
+    color: black;
+}
+.gadjets-L-img-inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: opacity .3s ease-in-out;
+    will-change: initial;
+    opacity: 1;
+}
+.gadjets-content-h{
+    font-size: 21px;
+    line-height: 1.4;
+    font-weight: 700;
+    margin: 13px 0;
+    margin-top: 0 !important;
+}
+.gadjets-item-name{
+    padding: 0;
+    display: flex;
+    margin-bottom: 15px;
+    line-height: normal;
+    align-items: center;
+}
+.gadjets-item-name-size{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 15px;
+}
+.gadjets-item-name-size img {
+    width: 21px;
+    height: 21px;
+    margin-right: 7px;
+    display: inline-flex;
+    vertical-align: middle;
+    border-radius: 50%;
+    align-self: center;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .2);
+}
+.gadjets-item-name-size a {
+    color: var(--c-contrast-850);
+    font-weight: 500;
+}
+.gadjets-item-profile::after{
+    content: "25c6";
+    padding: 0 2px;
+    display: inline-block;
+    transform: scale(.65);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -1px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gadjets-item-profile{
+    position: relative;
+}
+.gadjets-item-date{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 15px;
+    font-size: 11px;
+}
+.gadjets-item-L-para{
+    margin-bottom: 0;
+    margin-top: -3px;
+}
+.gadjets-item-L-para p{
+    font-size: 14px;
+}
+.gadgets-read-btn{
+    margin-top: 15px;
+    border-bottom: 1px solid #e8e8e8;
+    display: inline-block;
+    align-self: flex-start;
+    color: black;
+    font-size: 13px;
+    transition: all .25s ease-in-out;
+}
+.gadjets-item-small{
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 0 33px;
+}
+.gadjets-item-small .gadjets-inner-item{
+    --list-p-media-max-width: 100px;   
+}
+.gadjets-content-small-h{
+    font-size: 16px;
+    font-weight: 500;
+}
+.gadjets-part-2-main{
+    margin-bottom: 37px;
+}
+ /* <!-- Gadjets section closed --> */
+ /* <!-- footer section started --> */
+.footer-sec{
+    background: black;
+    color: var(--c-contrast-600);
+    margin-top: var(--footer-mt);
+}
+.footer-main{
+    padding: 60px 0;
+}
+.footer-about-inner{
+    padding: 0;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.footer-about-h{
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: .04em;
+    font-family: var(--body-font);
+    font-weight: 700;
+    line-height: 1.2;
+    flex-shrink: 0;
+    max-width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.footer-about-logo{
+    margin-bottom: 25px;
+    height: 35px;
+    width: auto;
+}
+.footer-about-content p {
+    margin-bottom: 21px;
+    font-size: 14px;
+    color: rgb(255 255 255 / 70%);
+    line-height: 24px;
+}
+.footer-social-list{
+    padding: 0;
+    margin: 0 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social-item{
+    margin: 0 3px;
+}
+.footer-social-item a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, .09);
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.12);
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+    position: relative;
+}
+.footer-social-item a i {
+    font-size: 17px;
+}
+.footer-picks-item{
+    width: 64%;
+    padding-left: 17px;
+}
+.footer-picks-post-h{
+    line-height: 1.36;
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer-picks-post-d{
+    font-size: 11px;
+    color: #afaaaa;
+}
+.footer-picks-item .gadjets-inner-item .gadjets-img-box{
+    margin-right: 20px;
+    border-radius: 4px;
+}
+.footer-picks-item .gadjets-inner-item{
+    padding-top: 21px; 
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(255 255 255 / 13%);
+}
+.footer-picks-item .footer-picks-post-3{
+    border: none;
+    padding-bottom: 0px;
+}
+.footer-picks-item .gadjets-content-box{
+    padding: 0px;
+}
+.footer-picks-item .gadjets-L-img-inner{
+    width: 87%;
+    height: 87%;
+}
+.copyright nav{
+    margin-bottom: 30px;
+
+.copyright-bottam{
+    color: #777777;
+    font-size: 14px;
+    font-weight: 500;
+}
+.footer-picks-inner strong{
+    margin-bottom: 15px;
+}
+.copyright-bottam a{
+    color: #dddddd;
+}
+.copyright nav .nav-link{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .05em;
+}
+.copyright-inner{
+    padding: 57px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* <!-- footer section started --> */
